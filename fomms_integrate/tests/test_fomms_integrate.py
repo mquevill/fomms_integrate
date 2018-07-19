@@ -32,7 +32,7 @@ def test_trapz():
 
 def test_monte1d():
     x = np.array([0, 3])
-    I = fomms_integrate.newton_cotes.monte_1d(x, f, 100000)
+    I = fomms_integrate.stochastic.monte_1d(x, f, 100000)
     assert np.allclose(I, 9.00, 1e-2)
 
 def test_simpson():
@@ -42,5 +42,5 @@ def test_simpson():
     
 def test_monte2d():
     domain = np.array([[-1, -1], [1, 1]])
-    I = fomms_integrate.newton_cotes.monte_2d(h, volume, domain, 1000000)
+    I = fomms_integrate.stochastic.monte_2d(h, volume, domain, 1000000)
     assert np.allclose(I, np.pi, 1e-2)
