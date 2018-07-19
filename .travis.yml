@@ -1,3 +1,4 @@
+# Travis continuous integration
 language: python
 
 # Run jobs on container-based infrastructure, can be overridden per job
