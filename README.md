@@ -1,7 +1,8 @@
 fomms_integrate
 ==============================
 [//]: # (Badges)
-[![Travis Build Status](https://travis-ci.org/REPLACE_WITH_OWNER_ACCOUNT/fomms_integrate.png)](https://travis-ci.org/mquevill/fomms_integrate)
+[![Travis Build Status](https://travis-ci.org/mquevill/fomms_integrate.png)](https://travis-ci.org/mquevill/fomms_integrate)
+[![Build Status](https://semaphoreci.com/api/v1/mquevill/fomms_integrate/branches/master/shields_badge.svg)](https://semaphoreci.com/mquevill/fomms_integrate)
 
 Integration package for MolSSI Workshop
 

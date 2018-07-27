@@ -47,7 +47,7 @@ def trapz(x, f):
 
 def simpson(x, f):
     """ 
-    Compute a 1D definite integral using the Simpson's rule.
+    Compute a 1D definite integral using Simpson's rule.
     Parameters
     ----------
     f : function
@@ -92,7 +92,7 @@ def simpson3_8(x, f):
 
 def boole(x, f):
     """ 
-    Compute a 1D definite integral using the 3/8 Simpson's rule.
+    Compute a 1D definite integral using Boole's rule.
     Parameters
     ----------
     f : function
