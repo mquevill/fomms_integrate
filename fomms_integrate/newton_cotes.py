@@ -4,6 +4,26 @@ This file contains the implementation of the Newton-Cotes rules
 
 import numpy as np
 
+def rectangle(x, f):
+    """ 
+    Compute a 1D definite integral using the rectangle (midpoint) rule
+    Parameters
+    ----------
+    f : function
+        User defined function.
+    x : numpy array
+        Integration domain.
+    Returns
+    -------
+    I : float
+        Integration result.
+    """
+    a = x[0]
+    b = x[1]
+    ya = f((a+b)/2)
+    I = (b-a) * ya
+    return I
+
 def trapz(x, f):
     """ 
     Compute a 1D definite integral using the trapezoidal rule
